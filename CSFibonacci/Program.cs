@@ -32,8 +32,10 @@ namespace CSFibonacci
             {
                 return a;
             }
-
-            return tailRecursiveAux(b, a + b, count - 1);
+            else
+            {
+                return tailRecursiveAux(b, a + b, count - 1);
+            }
         }
     }
 }
